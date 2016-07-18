@@ -60,4 +60,3 @@ Proxies
 
 .. automodule:: invenio_webhooks.proxies
    :members:
-   :undoc-members:

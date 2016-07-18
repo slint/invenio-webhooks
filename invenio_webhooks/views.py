@@ -32,6 +32,7 @@ from functools import wraps
 from flask import Blueprint, abort, jsonify, request
 from flask.views import MethodView
 from flask_babelex import lazy_gettext as _
+from flask_security import current_user
 from invenio_db import db
 from invenio_oauth2server import require_api_auth, require_oauth_scopes
 from invenio_oauth2server.models import Scope
